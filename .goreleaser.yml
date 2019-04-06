@@ -9,6 +9,7 @@ before:
 builds:
 - env:
   - CGO_ENABLED=0
+- main: ./src/milestone_bulk_insert.go
 archive:
   replacements:
     darwin: Darwin
